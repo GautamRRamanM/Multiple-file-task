@@ -1,0 +1,27 @@
+#form{
+    border:  2px solid red;
+    width: 300px;
+    height: 330px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    background-color: pink;
+    border-radius: 20px;
+    line-height: 15px;
+    margin-left: 40%;
+    margin-top: 40px;
+    /* place-content: center; */
+}
+/* #form input{
+    width: 200px;
+} */
+#btn{
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    background-color: lightblue;
+    margin-top: 10px;
+}
+#div{
+    line-height: 35px;
+}

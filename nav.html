@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./nav.css">
+</head>
+<style>
+    #nav{
+        border: 2px solid;
+        background-color: rgb(255, 119, 0);
+
+    }
+    #sub-nav{
+        list-style: none;
+       
+        display: flex;
+        justify-content: space-around;
+        line-height: 10%;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <nav id="nav">
+        <ul id="sub-nav">
+            <li id="file1">Form1</li>
+            <li id="file2">Form2</li>
+            <li id="file3">Form3</li>
+            <li id="file4">Preview</li>
+        </ul>
+    </nav>
+    <!-- ************************************************************************************************************************* -->
+    <div id="div1">
+    <form action="" method="post" id="form">
+    <div id="div">
+        Name : <input type="name" placeholder="enter the name" id="name"> <br>
+        Lname: <input type="text" placeholder="enter the last name" id="lname"> <br>
+        Email: <input type="text" placeholder="enter the email" id="email"> <br> 
+        Phone: <input type="text" placeholder="enter the phone" id="phone" minlength="10" maxlength="10"> <br>
+        Address : <input type="text" autofocus id="addr"> <br>
+        gender : <input type="radio"> male <input type="radio" name="" id="gen">female <br>
+        password : <input type="text" placeholder="enter the password" id="pwd" minlength="8"> <br> 
+        <button id="btn-form" style="width: 100px; border-radius: 20px; background-color: blueviolet;"> save </button>
+        </div>
+    </form>
+    </div>
+    <div id="content">
+        <iframe src="./educationform.html" id="education" width="100%" height="800px" frameborder="0"  style="overflow-y: hidden;" allowfullscreen></iframe>
+        <iframe src="./Office.html"  id="office" width="100%" height="560px"  frameborder="0" style="overflow-y: hidden;"  allowfullscreen></iframe> 
+        <!-- <iframe src="./preview.html" id="preview" width="101%" height="910px" style="overflow-y: hidden;"   frameborder="0" allowfullscreen></iframe> -->
+        <iframe src="./view.html" id="view" frameborder="0" height="1500px" width="100%"></iframe>
+         
+    </div>
+    <!-- ***************************************************************************************************************************** -->
+    <script src="./nav.js"></script>
+</body>
+</html>
